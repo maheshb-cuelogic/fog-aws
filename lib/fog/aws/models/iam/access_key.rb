@@ -3,8 +3,8 @@ module Fog
     class IAM
       class AccessKey < Fog::Model
         identity  :id, :aliases => 'AccessKeyId'
-        attribute :username, :aliases => 'UserName'
-        attribute :secret_access_key, :aliases => 'SecretAccessKey'
+        attribute :user_name, :aliases => 'UserName'
+        attribute :access_key_id, :aliases => 'SecretAccessKey'
         attribute :status, :aliases => 'Status'
         attribute :create_date, :aliases => 'CreateDate'
 
