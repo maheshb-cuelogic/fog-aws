@@ -6,6 +6,7 @@ module Fog
         attribute :username, :aliases => 'UserName'
         attribute :secret_access_key, :aliases => 'SecretAccessKey'
         attribute :status, :aliases => 'Status'
+        attribute :create_date, :aliases => 'CreateDate'
 
         def save
           requires :username
